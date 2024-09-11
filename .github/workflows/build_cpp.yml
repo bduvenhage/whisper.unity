@@ -150,7 +150,7 @@ jobs:
           
   build-macos:
     name: Build for MacOS (ARM, x86_64)
-    runs-on: macOS-latest
+    runs-on: macOS-12
     steps:
       - name: Clone whisper.unity
         uses: actions/checkout@v3
